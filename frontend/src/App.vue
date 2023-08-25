@@ -1,7 +1,7 @@
 <template>
   <div class="appViewContainer">
     <v-dialog v-model="loadingFlag" :scrim="false" persistent max-width="200">
-      <v-card color="primary">
+      <v-card color="#cf7622">
         <v-card-text>
           Loading...
           <v-progress-linear indeterminate color="white"></v-progress-linear>

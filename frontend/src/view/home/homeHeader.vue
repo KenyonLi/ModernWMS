@@ -8,12 +8,6 @@
       </v-breadcrumbs>
     </div>
     <div class="toolsBar">
-      <div class="gitSrc mr-4">
-        <img src="@/assets/img/gitee.png" alt="Gitee" @click="method.toGit('gitee')" />
-      </div>
-      <div class="gitSrc mr-4">
-        <img src="@/assets/img/github.png" alt="Gitee" @click="method.toGit('github')" />
-      </div>
       <LanguagesSwitch />
       <v-menu>
         <template #activator="{ props }">
@@ -100,9 +94,9 @@ const method = reactive({
   },
   toGit: (type: string) => {
     if (type === 'gitee') {
-      window.open('https://gitee.com/modernwms/ModernWMS', '_blank')
+     // window.open('https://gitee.com/modernwms/ModernWMS', '_blank')
     } else if (type === 'github') {
-      window.open('https://github.com/fjykTec/ModernWMS', '_blank')
+     // window.open('https://github.com/fjykTec/ModernWMS', '_blank')
     }
   }
 })
@@ -228,6 +222,6 @@ const firstName = computed(() => {
 
 .firstName {
   font-weight: 600;
-  color: #9c27b0;
+  color: #cf7622;
 }
 </style>

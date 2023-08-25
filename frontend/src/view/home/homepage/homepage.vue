@@ -47,7 +47,8 @@ import i18n from '@/languages/i18n'
   display: flex;
   justify-content: center;
   width: 100%;
-  color: #9c27b0;
+  /*color: #cf7622;*/
+  color: #cf7622;
   font-weight: bold;
   font-size: 120px;
 }
@@ -58,7 +59,8 @@ import i18n from '@/languages/i18n'
   width: 100%;
   font-size: 30px;
   letter-spacing: 5px;
-  color: #c9a7cf;
+  /*color: #c9a7cf;*/
+   color: #cfb7a7;
 }
 
 .lottieBox {

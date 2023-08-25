@@ -18,7 +18,7 @@
           @click:append-inner="method.handleShowPassword()"
         ></v-text-field>
         <v-checkbox v-model="data.remember" :label="$t('login.rememberTips')"></v-checkbox>
-        <v-btn color="purple" class="loginBtn" @click="method.login()">{{ $t('login.mainButtonLabel') }}</v-btn>
+        <v-btn color="#cf7622" class="loginBtn" @click="method.login()">{{ $t('login.mainButtonLabel') }}</v-btn>
         <v-btn class="mt-2" color="#666" variant="plain" @click="method.openRegisterDialog">
           {{ i18n.global.t('login.registerTips') }}
         </v-btn>
@@ -209,5 +209,6 @@ onMounted(() => {
 
 .loginBtn {
   height: 45px;
+  color: rgb(241, 232, 201);
 }
 </style>

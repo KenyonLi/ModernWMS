@@ -10,11 +10,6 @@
       </div>
       <LoginForm />
     </div>
-
-    <div class="copyRight">
-      <a href="https://modernwms.ikeyly.com" target="_blank">CopyRight © 2023 ModernWMS All Rights Reserve</a>
-    </div>
-    <div class="ICP" @click="method.toICP"> 闽ICP备2021008548号 </div>
   </div>
 </template>
 

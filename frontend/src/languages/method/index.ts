@@ -6,6 +6,6 @@ export function getSelcectedLang(lang: string) {
     case 'en':
       return 'en_US'
     default:
-      return 'en_US'
+      return 'zh_CN'
   }
 }

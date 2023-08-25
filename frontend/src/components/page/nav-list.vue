@@ -96,7 +96,7 @@ const method = reactive({
 
 .is-active-item {
   background-color: #e3ecfb;
-  color: #9C27B0;
+  color: #cf7622;
   transition: @normal-transition;
   position: relative;
   // justify-content: space-between;

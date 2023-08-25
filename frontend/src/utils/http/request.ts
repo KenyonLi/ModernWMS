@@ -112,7 +112,7 @@ http.interceptors.request.use(
     const donNeedTokenApi = ['/login', '/user/register']
     const token = store.getters['user/token']
 
-    let culture = 'en-us'
+    let culture = 'zh-cn'
     switch (store.getters['system/language']) {
       case 'zh':
         culture = 'zh-cn'

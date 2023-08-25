@@ -312,10 +312,10 @@ const tableHeight = computed(() => computedTableHeight({ hasTab: false, hasPager
   // }
 }
 .roleNameCol:hover {
-  background-color: #9156fd;
+  background-color: #fdc356;
   color: white;
 }
 .activeRow {
-  background-color: #9156fd;
+  background-color: #fdaf56;
 }
 </style>

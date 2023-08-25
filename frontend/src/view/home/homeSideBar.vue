@@ -152,10 +152,10 @@ onMounted(() => {
       background-color: #e8e9ed;
     }
     .activeMenuItems {
-      background: linear-gradient(to right, #af85fc, #9155fd);
+      background: linear-gradient(to right, #fcbf85e5, #fdaf55);
       color: #fff;
       &:hover {
-        background: linear-gradient(to right, #af85fc, #9155fd);
+        background: linear-gradient(to right, #fcbf85e5, #fdaf55);
       }
     }
 
